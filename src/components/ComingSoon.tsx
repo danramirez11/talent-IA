@@ -110,10 +110,9 @@ const ComingSoon = () => {
               <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              ¡TalentIA Llega Pronto!
             </div>
             <h2 className="text-2xl font-bold text-white mb-4">¡Registro Exitoso!</h2>
-            <p>
+            <p >
               Nuestra plataforma de IA para reclutamiento está en sus etapas finales de desarrollo. 
               Regístrate para obtener acceso anticipado y ser de los primeros en revolucionar tu proceso de selección.
             </p>
