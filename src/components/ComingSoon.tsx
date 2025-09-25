@@ -71,7 +71,7 @@ const ComingSoon = () => {
 
       
       // Reset form after 3 seconds
-      setTimeout(() => {
+      /*setTimeout(() => {
         setIsSubmitted(false);
         setFormData({
           email: '',
@@ -81,7 +81,7 @@ const ComingSoon = () => {
           gender: '',
           userType: userTypeParam === 'company' ? 'company' : 'student'
         });
-      }, 3000);
+      }, 3000);*/
     }
   };
 
