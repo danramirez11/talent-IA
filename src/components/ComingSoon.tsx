@@ -110,7 +110,7 @@ const ComingSoon = () => {
               <Bot className="h-8 w-8 text-blue-600" />
             </div>
             <h2 className="text-2xl font-bold text-white mb-4">¡Registro Exitoso!</h2>
-            <p className="text-gray-300">
+            <p className="text-gray-300 mb-4">
               Te hemos registrado exitosamente. Te notificaremos por email tan pronto como la plataforma esté disponible.
             </p>
             <button
