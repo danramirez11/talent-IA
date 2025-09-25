@@ -112,7 +112,7 @@ const ComingSoon = () => {
               </svg>
             </div>
             <h2 className="text-2xl font-bold text-white mb-4">¡Registro Exitoso!</h2>
-            <p >
+            <p className="text-gray-300">
               Nuestra plataforma de IA para reclutamiento está en sus etapas finales de desarrollo. 
               Regístrate para obtener acceso anticipado y ser de los primeros en revolucionar tu proceso de selección.
             </p>
