@@ -279,7 +279,7 @@ const LandingPage = () => {
               Retorno de Inversión
             </h2>
             <p className="text-xl text-gray-300">
-              Empresas que usan TalentIA reportan mejoras significativas en sus métricas de reclutamiento
+              Construimos una solución que busca alcanzar las siguientes estadísticas
             </p>
           </div>
 
