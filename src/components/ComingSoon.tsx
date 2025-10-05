@@ -133,7 +133,7 @@ const ComingSoon = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2" onClick={() => navigate('/')}>
               <Bot className="h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold text-white">TalentIA</span>
+              <span className="text-2xl font-bold text-white">Tu Match</span>
             </div>
             
           </div>
@@ -159,7 +159,7 @@ const ComingSoon = () => {
                 ¡Ya Casi Estamos Listos!
               </h1>
               <p className="text-gray-300">
-                TalentIA está en desarrollo y estará disponible muy pronto. 
+                Tu Match está en desarrollo y estará disponible muy pronto. 
                 Regístrate para ser el primero en acceder cuando lancemos la plataforma.
               </p>
             </div>
@@ -307,7 +307,7 @@ const ComingSoon = () => {
 
             <div className="mt-6 text-center">
               <p className="text-sm text-gray-400">
-                Al registrarte, aceptas recibir información sobre el lanzamiento de TalentIA y demos exclusivos
+                Al registrarte, aceptas recibir información sobre el lanzamiento de Tu Match y demos exclusivos
               </p>
             </div>
           </div>
