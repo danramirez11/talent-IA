@@ -33,7 +33,7 @@ const LandingPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2">
               <Bot className="h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold text-white">TalentIA</span>
+              <span className="text-2xl font-bold text-white">Tu Match</span>
             </div>
             <nav className="hidden md:flex space-x-8">
               <a href="#beneficios" className="text-gray-300 hover:text-blue-400 transition-colors">Beneficios</a>
@@ -312,7 +312,6 @@ const LandingPage = () => {
             Únete a la revolución del reclutamiento inteligente
           </h2>
           <p className="text-xl text-blue-200 mb-8">
-            Más de 500 empresas ya confían en TalentIA para optimizar sus procesos de selección. 
             Prueba gratuita por 30 días, sin compromiso.
           </p>
           
@@ -341,13 +340,13 @@ const LandingPage = () => {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <Bot className="h-8 w-8 text-blue-500" />
-              <span className="text-2xl font-bold">TalentIA</span>
+              <span className="text-2xl font-bold">Tu Match</span>
             </div>
             <p className="text-gray-400 mb-4">
               La plataforma de IA que transforma el reclutamiento empresarial
             </p>
             <p className="text-sm text-gray-600">
-              © 2025 TalentIA. Todos los derechos reservados.
+              © 2025 Tu Match. Todos los derechos reservados.
             </p>
           </div>
         </div>
