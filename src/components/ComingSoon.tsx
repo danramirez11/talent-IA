@@ -60,7 +60,6 @@ const ComingSoon = () => {
     if (validateForm()) {
       // Here you would normally send the data to your backend
       console.log('Form submitted:', formData);
-      setIsSubmitted(true);
 
       await fetch("https://script.google.com/macros/s/AKfycbxtkbnfBzfwOzcOgemvn2__k5sd_VTL5pehjvYr2tI-94CRsULjzZJRCc7FF-_GXN6k/exec", {
     method: "POST",
@@ -69,19 +68,8 @@ const ComingSoon = () => {
     body: JSON.stringify(formData),
   });
 
-      
-      // Reset form after 3 seconds
-      /*setTimeout(() => {
-        setIsSubmitted(false);
-        setFormData({
-          email: '',
-          firstName: '',
-          lastName: '',
-          age: '',
-          gender: '',
-          userType: userTypeParam === 'company' ? 'company' : 'student'
-        });
-      }, 3000);*/
+      // Navigate to thank you page with user type
+      navigate(`/gracias?type=${formData.userType}`);
     }
   };
 
@@ -100,30 +88,6 @@ const ComingSoon = () => {
       }));
     }
   };
-
-  if (isSubmitted) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex items-center justify-center px-4">
-        <div className="max-w-md w-full">
-          <div className="bg-gray-800 rounded-2xl shadow-xl p-8 text-center border border-gray-700">
-            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-              <Bot className="h-8 w-8 text-blue-600" />
-            </div>
-            <h2 className="text-2xl font-bold text-white mb-4">¡Registro Exitoso!</h2>
-            <p className="text-gray-300 mb-4">
-              Te hemos registrado exitosamente. Te notificaremos por email tan pronto como la plataforma esté disponible.
-            </p>
-            <button
-              onClick={() => navigate('/')}
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors"
-            >
-              Volver al Inicio
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
