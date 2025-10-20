@@ -53,9 +53,7 @@ const LandingPage = () => {
               <span className="block text-blue-600">para PYMEs Colombianas</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
-              Plataforma de inteligencia artificial que estandariza CVs, clasifica candidatos automáticamente 
-              y se integra con tu ATS existente. Reduce hasta 70% el tiempo de revisión manual y mejora 
-              la calidad de tus contrataciones.
+              Automatiza el filtrado de hojas de vida, prioriza candidatos y reduce hasta el 70% tiempos de selección
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
