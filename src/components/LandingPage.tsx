@@ -49,8 +49,8 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Revoluciona tu proceso de
-              <span className="block text-blue-600">reclutamiento con IA</span>
+              Plataforma de Reclutamiento Inteligente 
+              <span className="block text-blue-600">para PYMEs Colombianas</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
               Plataforma de inteligencia artificial que estandariza CVs, clasifica candidatos automáticamente 
