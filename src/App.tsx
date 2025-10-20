@@ -7,8 +7,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/demo-software-reclutamiento-pymes" element={<LandingPage />} />
         <Route path="/coming-soon" element={<ComingSoon />} />
+        <Route path="/*" element={<LandingPage />} />
+        
       </Routes>
     </Router>
   );
