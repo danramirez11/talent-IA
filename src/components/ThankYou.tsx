@@ -15,7 +15,7 @@ const ThankYou = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-2" onClick={() => navigate('/')}>
               <Bot className="h-8 w-8 text-blue-600" />
-              <span className="text-2xl font-bold text-white">TalentIA</span>
+              <span className="text-2xl font-bold text-white">Tu Match</span>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ const ThankYou = () => {
             </h1>
             
             <p className="text-xl text-gray-300 mb-6">
-              Gracias por tu interés en TalentIA
+              Gracias por tu interés en Tu Match
             </p>
 
             {/* Personalized Message */}
@@ -57,12 +57,12 @@ const ThankYou = () => {
                   <p className="text-gray-300 text-sm leading-relaxed">
                     Hemos registrado tu empresa exitosamente. Nuestro equipo se pondrá en contacto contigo 
                     para programar una <strong className="text-white">demo personalizada</strong> y discutir 
-                    cómo TalentIA puede transformar tu proceso de reclutamiento.
+                    cómo Tu Match puede transformar tu proceso de reclutamiento.
                   </p>
                   <div className="flex items-start space-x-3 mt-4">
                     <CheckCircle className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
                     <p className="text-gray-400 text-xs">
-                      Recibirás información sobre integración ATS y casos de éxito
+                      Recibirás información sobre integración ATS
                     </p>
                   </div>
                 </div>
@@ -91,12 +91,7 @@ const ThankYou = () => {
             <div className="space-y-4 mb-8">
               <h3 className="text-lg font-semibold text-white">Próximos Pasos:</h3>
               <div className="space-y-3">
-                <div className="flex items-start space-x-3">
-                  <Mail className="h-5 w-5 text-blue-500 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-300 text-sm text-left">
-                    Revisa tu email para confirmar el registro
-                  </p>
-                </div>
+                
                 <div className="flex items-start space-x-3">
                   <Calendar className="h-5 w-5 text-indigo-500 mt-0.5 flex-shrink-0" />
                   <p className="text-gray-300 text-sm text-left">
@@ -123,10 +118,7 @@ const ThankYou = () => {
               >
                 Volver al Inicio
               </button>
-              
-              <p className="text-xs text-gray-500">
-                ¿Tienes preguntas? Contáctanos en info@talentia.com
-              </p>
+            
             </div>
           </div>
         </div>
