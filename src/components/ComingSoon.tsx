@@ -59,6 +59,7 @@ const ComingSoon = () => {
     
     if (validateForm()) {
       // Here you would normally send the data to your backend
+      setIsSubmitting(true)
       console.log('Form submitted:', formData);
 
       await fetch("https://script.google.com/macros/s/AKfycbxtkbnfBzfwOzcOgemvn2__k5sd_VTL5pehjvYr2tI-94CRsULjzZJRCc7FF-_GXN6k/exec", {
